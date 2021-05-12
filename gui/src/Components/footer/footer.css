@@ -1,0 +1,30 @@
+.footer {
+  background-color: rgb(59, 52, 52);
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+}
+
+.foot-link {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.foot-link a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.foot-link a:hover {
+  color: #7510f7;
+}

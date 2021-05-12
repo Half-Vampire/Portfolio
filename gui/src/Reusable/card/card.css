@@ -1,0 +1,102 @@
+.card-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* #7510f7 */
+
+.card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  /* border: 2px solid #5918a8; */
+  border-radius: 10px;
+  margin: 5px 0 10px 0;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD TEXT AND DESCRIPTION */
+.card-text {
+  background-color: whitesmoke;
+}
+
+.card-description {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+}
+
+/* CARD TECH USED */
+.card-tech {
+  margin-left: 5%;
+}
+
+.card-tech-icon {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 15px 5px 0;
+}
+
+/* CARD IMAGE */
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-heading {
+  color: #000000;
+  margin-left: 5%;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+/* CARD BUTTONS */
+.card-btn {
+  display: inline-block;
+  margin-left: 5%;
+  justify-content: start;
+}
+
+.card-project-btn {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  margin: 0 20px 0 0;
+  color: #ffffff;
+  border: 2px solid #5918a8;
+  background-color: #5918a8;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(62, 64, 165, 0.6);
+  border-radius: 1.5rem;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.card-project-btn:hover {
+  color: #5918a8;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.card-code-btn {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  margin: 0 20px 0 0;
+  color: #5918a8;
+  border: 2px solid #5918a8;
+  background-color: #ffffff;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(87, 88, 187, 0.6);
+  border-radius: 1.5rem;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.card-code-btn:hover {
+  color: #ffffff;
+  background-color: #5918a8;
+  cursor: pointer;
+}
