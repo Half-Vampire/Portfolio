@@ -1,0 +1,22 @@
+.intro {
+  margin-top: 140px;
+  width: 50%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.intro-img-box {
+  padding: 10px;
+}
+
+.intro-image {
+  border: 2px solid #7510f7;
+  border-radius: 50%;
+}
